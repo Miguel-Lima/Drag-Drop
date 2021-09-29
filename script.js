@@ -19,14 +19,19 @@ function dragEnd(e) {
 
 //FUNCTIONS AREA
 function dragOver(e){
+    if(e.currentTarget.querySelector('.item') === null) {
     e.preventDefault();
     e.currentTarget.classList.add('hover');
+    }
 }
 function dragLeave(e){
     e.currentTarget.classList.remove('hover');
 }
 function drop(e){
     e.currentTarget.classList.remove('hover');
-
     
+    if(e.currentTarget.querySelector('.item') === null) {
+        let dragItem = document.querySelector('.item.dragging');
+        e.currentTarget.appendChild(dragItem);
+    }
 }
