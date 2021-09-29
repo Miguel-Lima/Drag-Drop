@@ -18,3 +18,15 @@ function dragEnd(e) {
 }
 
 //FUNCTIONS AREA
+function dragOver(e){
+    e.preventDefault();
+    e.currentTarget.classList.add('hover');
+}
+function dragLeave(e){
+    e.currentTarget.classList.remove('hover');
+}
+function drop(e){
+    e.currentTarget.classList.remove('hover');
+
+    
+}
