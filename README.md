@@ -1,14 +1,12 @@
 
 # ⬛ 🟩 Drang and Drop
 
-<div align="center">
-    
-    ![Animação4](https://user-images.githubusercontent.com/83568294/135199862-b4a0360c-c4d6-4f95-9058-9815adb88510.gif)
+<div align="center"
+        ![Animação4](https://user-images.githubusercontent.com/83568294/135200173-7aefb802-5753-4919-b212-811cfc72804d.gif)
 
-    
-
-</div
-    
+   </div>
+   
+  
 ## 🚀 Technologies
     - ✔️ Javascript
     - ✔️ HTML
